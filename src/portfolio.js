@@ -1,49 +1,49 @@
 const header = {
-  // homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  // title: 'JS.',
+  homepage: 'https://drive.google.com/file/d/1bsgLnL-YEQ9KmiDYReyQlHnIOn7GKy7g/view',
+  title: 'JS.',
 }
 
 const about = {
   name: 'Lys Prestes',
   role: 'Front End Developer',
-  description:
-    'I am a Front End Developer with a passion for building beautiful, responsive, and interactive user interfaces. I have a strong background in both front end and back end development, and I am always looking to learn new technologies and techniques.',
-  resume: 'https://example.com',
+  description: `I am a Front End Developer with a passion for building beautiful, responsive, and interactive user interfaces. I am a natural problem solver and I'm deeply interested in understanding how things work. I have a strong background in both front end and back end development, and I am always looking to learn new technologies and techniques.`,
+  resume:
+    'https://drive.google.com/file/d/1bsgLnL-YEQ9KmiDYReyQlHnIOn7GKy7g/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/lysprestes',
-    github: 'https://github.com/lysprestes',
-  },
+    github: 'https://github.com/lysprestes'
+  }
 }
 
 const projects = [
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'React.Q - Q&A',
+    description: 'Q&A app for interactions between speakers and attendees.',
+    stack: ['JavaScript', 'SQLite', 'CSS'],
+    sourceCode: 'https://github.com/lysprestes/Rocket.q',
+    livePreview: 'https://github.com'
   },
   {
-    name: 'Project 2',
+    name: 'To-Do List',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Task management app for organizing your day-to-day tasks build in React.',
+    stack: ['React', 'CSS', 'API'],
+    sourceCode: 'https://github.com/lysprestes/todo-list-react',
+    livePreview: 'https://github.com'
   },
   {
-    name: 'Project 3',
+    name: 'DoWhile Badge Maker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+      `Custom badge generator for the DoWhile event based on the information from the user's GitHub account, using GitHub's API.`,
+    stack: ['JavasCript', 'CSS', 'HTML', 'API'],
+    sourceCode: `https://github.com/lysprestes/NLW-HEAT---Mission-Origin
+    `,
+    livePreview: 'https://github.com'
+  }
 ]
 
 const skills = [
-  'Git',
+  'Git and GitHUb',
   'HTML',
   'CSS',
   'JavaScript',
@@ -52,10 +52,12 @@ const skills = [
   'Redux',
   'Jest',
   'Bootstrap',
+  'Docker',
+  'MySQL',
 ]
 
 const contact = {
-  email: 'lysprestes@mail.com',
+  email: 'lysprestes@mail.com'
 }
 
 export { header, about, projects, skills, contact }
