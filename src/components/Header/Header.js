@@ -1,16 +1,19 @@
 import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
+import lys from '../../assets/lys.png'
 import './Header.css'
 
 const Header = () => {
-  const { homepage, title } = header
+  // const { homepage, title } = header
+  const { homepage } = header
 
   return (
     <header className='header center'>
       <h3>
         {homepage ? (
-          <a href={homepage} className='link'>
-            {title}
+          // <a href={homepage} className='link'>
+          <a href={homepage}>
+            <img src={lys} alt='Profile picture'  className='picture'/>
           </a>
         ) : (
           title

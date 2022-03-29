@@ -9,5 +9,15 @@
 @media (max-width: 600px) {
   .header {
     height: 6em;
+    /* position: relative; */
   }
+  .picture {
+    margin-top: 50px;
+    width: 100px;
+  }
+}
+
+.picture {
+  width: 110px;
+  border-radius: 50%;
 }

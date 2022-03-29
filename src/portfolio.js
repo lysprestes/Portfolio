@@ -1,14 +1,15 @@
 const header = {
   homepage: 'https://drive.google.com/file/d/1bsgLnL-YEQ9KmiDYReyQlHnIOn7GKy7g/view',
-  title: 'JS.',
+  title: '👩🏻‍💻 ',
+  // title: {lys}
 }
 
 const about = {
-  name: 'Lys Prestes',
-  role: 'Front End Developer',
+  name: 'Lys',
+  role: 'Web Developer',
   description: `I am a Front End Developer with a passion for building beautiful, responsive, and interactive user interfaces. I am a natural problem solver and I'm deeply interested in understanding how things work. I have a strong background in both front end and back end development, and I am always looking to learn new technologies and techniques.`,
   resume:
-    'https://drive.google.com/file/d/1bsgLnL-YEQ9KmiDYReyQlHnIOn7GKy7g/view?usp=sharing',
+    'https://drive.google.com/file/d/1-InZgOn8S-dBSOuGS0dixw23J7PYUDcV/view',
   social: {
     linkedin: 'https://linkedin.com/lysprestes',
     github: 'https://github.com/lysprestes'
@@ -52,6 +53,7 @@ const skills = [
   'Redux',
   'Jest',
   'Bootstrap',
+  'Node.js',
   'Docker',
   'MySQL',
 ]
