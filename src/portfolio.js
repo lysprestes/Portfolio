@@ -1,7 +1,6 @@
 const header = {
-  homepage: 'https://drive.google.com/file/d/1bsgLnL-YEQ9KmiDYReyQlHnIOn7GKy7g/view',
+  homepage: 'https://drive.google.com/file/d/1-InZgOn8S-dBSOuGS0dixw23J7PYUDcV/view?usp=sharing',
   title: '👩🏻‍💻 ',
-  // title: {lys}
 }
 
 const about = {
